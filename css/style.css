@@ -14,19 +14,37 @@ h1 {
 }
 .top {
   margin: 0px;
-  background-color: #191919;
   position: relative;
-  padding-top: 5%;
+  height: 50%;
+}
+p {
+  font-size: medium;
+}
+.profile {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 6%;
 }
 #meinhome {
   color: white;
   position: absolute;
   width: 300px;
-  top: 35%;
+  top: 34%;
   left: 41%;
   font-size: 40px;
 }
-p {
+#macbook {
+  width: 100%;
+  height: 100%;
+}
+#rawlabrise-font {
+  width: 42rem;
+  position: absolute;
+  top: 2%;
+  left: 28%;
+}
+#mainread {
   color: white;
 
   margin: 40px auto 0px auto;
@@ -36,13 +54,13 @@ p {
   width: 400px;
   font-size: 20px;
 }
-#macbook {
-  width: 100%;
-  height: 100%;
+.introduce {
+  margin: 16% auto;
+  width: 63%;
+  text-align: left;
+  line-height: 2;
 }
-#rawlabrise-font {
-  width: 42rem;
-  position: absolute;
-  top: 8%;
-  left: 28%;
+
+h3 {
+  color: #868e96;
 }
